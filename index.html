@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Compra Libros Online</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<h3>
+					Compra libros online
+				</h3>
+			</div>
+		</div>
+		
+		<div id="contenedor">
+			
+		</div>
+		
+		<div class="row">
+			<div class="col-md-12" style="border-bottom: 1px solid #ccc; margin-bottom: 30px;">
+				<h3>
+					Carrito de Compras:
+				</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<table class="table table-condensed">
+					<thead>
+						<tr>
+							<th>
+								#
+							</th>
+							<th>
+								Producto
+							</th>
+							<th>
+								Cantidad
+							</th>
+							<th>
+								Precio
+							</th>
+							<th>
+								Eliminar
+							</th>
+							
+						</tr>
+					</thead>
+					<tbody id="tablaLibros">
+						
+					</tbody>
+				</table>
+			</div>
+			<div class="col-md-6">
+				<table class="table table-condensed" style="margin-top: 30px;">
+					<tbody>
+						<tr>
+							<td>
+								Total Compra:
+							</td>
+							<td id="precio">
+								00.00
+							</td>
+							
+						</tr>
+						<tr class="active">
+							<td>
+								Descuento:
+							</td>
+							<td id="descuento">
+								00.00 (0%)
+							</td>
+							
+						</tr>
+						<tr class="active">
+							<td>
+								IVA: (21%)
+							</td>
+							<td id="iva">
+								00.00
+							</td>
+						</tr>
+						<tr class="success">
+							<td>
+								Importe Total:
+							</td>
+							<td id="total">
+								00.00
+							</td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+</div>
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

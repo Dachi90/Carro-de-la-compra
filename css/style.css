@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.producto {
+
+    padding: 30px 10px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    text-align: center;
+
+}
+.imagenes {
+	width:10em;
+	height: 200px;
+
+}
+
+.titulos {
+	height: 60px;
+	font-family: Source Code Pro;
+}
+
+.precio {
+	color:red;
+}
+.precio1 {
+	color:black;
+	font-weight: bold;
+}
+
+.boton {
+	vertical-align:middle;
+	margin:0;
+	padding: 0;
+}
